@@ -46,18 +46,4 @@ Where d.dept_name = 'Sales' or d.dept_name = 'Development';
 Select last_name, count(*) AS Total_count
 From employees
 Group By last_name
-Order By last_name DESC;
-
-Select last_name, count(*) AS Total_count
-From employees
-Group By last_name
-Order By count(*) DESC;
-
-Select last_name, count(*) AS Total_count
-From employees
-Group By last_name
 Order By Total_count DESC;
-
--- Select first_name
--- From employees
--- where last_name = 'Breugel';
